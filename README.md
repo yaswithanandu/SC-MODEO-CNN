@@ -11,7 +11,7 @@ Authors: Yaswitha Nandu Yalamanchali, T. Harshini Sri Savitha, Pradeep Kumar Gaj
 |---|---|
 | `modeo/`, `scripts/`, `tests/` | the method, experiment scripts and tests (details below) |
 | `notebooks/SC_MODEO_CNN_kaggle.ipynb` | self-contained Kaggle notebook used for all GPU runs (code embedded); `build_kaggle_notebook.py` regenerates it |
-| `paper/` | LaTeX paper: `SC_MODEO_CNN.tex`, `refs.bib`, `images/` |
+| `paper/` | the paper: `Team30.pdf` (submitted version) and its LaTeX source `SC_MODEO_CNN.tex`, `refs.bib`, `images/` |
 | `results/` | per-run `results.json` / `archive.json` (Gas Pipeline, DoS as unseen attack, 5 seeds), summary tables (`summary/`, `tables/`), hand-designed CNN with the fused detector |
 | `analysis/` | scripts that produced the paper's tables and figures from `results/` (paths inside point to our working directories; adjust before reuse) |
 
