@@ -1,0 +1,240 @@
+{
+  "config": {
+    "dataset": "gas_pipeline",
+    "data_path": "/kaggle/working/gas_final.arff",
+    "mode": "baseline",
+    "unknown_class": "DoS",
+    "pseudo_unknown": null,
+    "norm": null,
+    "transform": null,
+    "seed": 3,
+    "out": "runs/gas_pipeline_baseline_U-DoS_s3",
+    "generations": 40,
+    "search_epochs": 5,
+    "final_epochs": 60,
+    "search_fraction": 0.3,
+    "a_max": 20,
+    "c_low": 3,
+    "c_high": 10,
+    "base_batch": 256,
+    "no_loss_gene": false,
+    "no_f3": false,
+    "f1_average": null,
+    "f3_score": "mahalanobis",
+    "feasibility_margin": 0.05,
+    "archive_remove": "highest",
+    "final_which": "picked",
+    "max_rows": null,
+    "resume": false
+  },
+  "search_seconds": 676.7816843986511,
+  "archive": [
+    {
+      "genome": [
+        6,
+        "000011101001010",
+        [
+          2,
+          2,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          5,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          5,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          6,
+          2
+        ]
+      ],
+      "fitness": [
+        0.024617870045820944,
+        0.267616
+      ],
+      "info": {
+        "mutation": "conv1",
+        "loss": "ce",
+        "final_train_loss": 0.12718833490059925,
+        "diverged": false,
+        "train_seconds": 1.5643367767333984,
+        "batch_size": 256,
+        "mflops": 0.267616,
+        "f1": 0.9753821299541791,
+        "feasible": true
+      }
+    },
+    {
+      "genome": [
+        6,
+        "000011101001010",
+        [
+          2,
+          2,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          5,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          7,
+          1
+        ]
+      ],
+      "fitness": [
+        0.03133177882537119,
+        0.262912
+      ],
+      "info": {
+        "mutation": "conv5",
+        "loss": "ce",
+        "final_train_loss": 0.21331064132126895,
+        "diverged": false,
+        "train_seconds": 0.5472497940063477,
+        "batch_size": 768,
+        "mflops": 0.262912,
+        "f1": 0.9686682211746288,
+        "feasible": true
+      }
+    },
+    {
+      "genome": [
+        6,
+        "000000111101111",
+        [
+          2,
+          2,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          5,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "fitness": [
+        0.08128272356878563,
+        0.208688
+      ],
+      "info": {
+        "mutation": "SC2_topo",
+        "loss": "ce",
+        "final_train_loss": 0.5088925077364995,
+        "diverged": false,
+        "train_seconds": 1.7121224403381348,
+        "batch_size": 256,
+        "mflops": 0.208688,
+        "f1": 0.9187172764312144,
+        "feasible": true
+      }
+    }
+  ]
+}

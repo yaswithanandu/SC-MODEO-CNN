@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Faithfulness and stability of explanations for the 10 SC-MODEO-CNN models (5 seeds $\times$ 2 Pareto picks).}
+\label{tab:xai}
+\footnotesize
+\begin{tabular}{lcccccc}
+\toprule
+Method & Deletion AUC $\downarrow$ & (random) & Insertion AUC $\uparrow$ & (random) & Kendall $\tau$ & Top-5 overlap \\
+\midrule
+Integrated Gradients & 0.537 $\pm$ 0.118 & 0.663 $\pm$ 0.064 & 0.820 $\pm$ 0.073 & 0.665 $\pm$ 0.055 & 0.72 $\pm$ 0.08 & 0.63 \\
+GradientSHAP & 0.543 $\pm$ 0.112 & 0.663 $\pm$ 0.064 & 0.814 $\pm$ 0.067 & 0.665 $\pm$ 0.055 & 0.68 $\pm$ 0.10 & 0.64 \\
+\bottomrule
+\end{tabular}
+\end{table}

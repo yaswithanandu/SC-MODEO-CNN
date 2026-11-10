@@ -1,0 +1,447 @@
+{
+  "config": {
+    "dataset": "gas_pipeline",
+    "data_path": "/kaggle/working/gas_final.arff",
+    "mode": "baseline",
+    "unknown_class": "DoS",
+    "pseudo_unknown": null,
+    "norm": null,
+    "transform": null,
+    "seed": 4,
+    "out": "runs/gas_pipeline_baseline_U-DoS_s4",
+    "generations": 40,
+    "search_epochs": 5,
+    "final_epochs": 60,
+    "search_fraction": 0.3,
+    "a_max": 20,
+    "c_low": 3,
+    "c_high": 10,
+    "base_batch": 256,
+    "no_loss_gene": false,
+    "no_f3": false,
+    "f1_average": null,
+    "f3_score": "mahalanobis",
+    "feasibility_margin": 0.05,
+    "archive_remove": "highest",
+    "final_which": "picked",
+    "max_rows": null,
+    "resume": false
+  },
+  "search_seconds": 468.8767788410187,
+  "archive": [
+    {
+      "genome": [
+        6,
+        "100011100011101",
+        [
+          3,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          5,
+          1,
+          0
+        ],
+        [
+          5,
+          3,
+          5,
+          1,
+          0
+        ],
+        [
+          5,
+          3,
+          6,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          4,
+          2,
+          0
+        ],
+        [
+          6,
+          0,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ]
+      ],
+      "fitness": [
+        0.01898584229335365,
+        1.012448
+      ],
+      "info": {
+        "mutation": "conv5",
+        "loss": "ce",
+        "final_train_loss": 0.12745918491573044,
+        "diverged": false,
+        "train_seconds": 0.968923807144165,
+        "batch_size": 512,
+        "mflops": 1.012448,
+        "f1": 0.9810141577066464,
+        "feasible": true
+      }
+    },
+    {
+      "genome": [
+        6,
+        "100011100011101",
+        [
+          3,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          5,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          1,
+          1,
+          3
+        ],
+        [
+          5,
+          3,
+          6,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          5,
+          1,
+          2
+        ],
+        [
+          6,
+          0,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ]
+      ],
+      "fitness": [
+        0.019243832611367306,
+        0.63776
+      ],
+      "info": {
+        "mutation": "conv3",
+        "loss": "ce",
+        "final_train_loss": 0.1271384908168605,
+        "diverged": false,
+        "train_seconds": 0.850069522857666,
+        "batch_size": 512,
+        "mflops": 0.63776,
+        "f1": 0.9807561673886327,
+        "feasible": true
+      }
+    },
+    {
+      "genome": [
+        6,
+        "100011100011101",
+        [
+          3,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          5,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          5,
+          1,
+          2
+        ],
+        [
+          6,
+          0,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ]
+      ],
+      "fitness": [
+        0.020044037216133903,
+        0.458368
+      ],
+      "info": {
+        "mutation": "conv4",
+        "loss": "ce",
+        "final_train_loss": 0.13050224361094562,
+        "diverged": false,
+        "train_seconds": 0.7137618064880371,
+        "batch_size": 512,
+        "mflops": 0.458368,
+        "f1": 0.9799559627838661,
+        "feasible": true
+      }
+    },
+    {
+      "genome": [
+        6,
+        "100011100011101",
+        [
+          3,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          5,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          5,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          7,
+          1,
+          0
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ]
+      ],
+      "fitness": [
+        0.02476552568027035,
+        0.309184
+      ],
+      "info": {
+        "mutation": "conv4",
+        "loss": "ce",
+        "final_train_loss": 0.14636517745075803,
+        "diverged": false,
+        "train_seconds": 0.6853039264678955,
+        "batch_size": 512,
+        "mflops": 0.309184,
+        "f1": 0.9752344743197296,
+        "feasible": true
+      }
+    },
+    {
+      "genome": [
+        6,
+        "100011100011101",
+        [
+          3,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          5,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          1,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          5,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          5,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          7,
+          1,
+          0
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ]
+      ],
+      "fitness": [
+        0.02492763465694703,
+        0.255232
+      ],
+      "info": {
+        "mutation": "conv4",
+        "loss": "ce",
+        "final_train_loss": 0.1416347911863616,
+        "diverged": false,
+        "train_seconds": 0.6936564445495605,
+        "batch_size": 512,
+        "mflops": 0.255232,
+        "f1": 0.975072365343053,
+        "feasible": true
+      }
+    },
+    {
+      "genome": [
+        6,
+        "100011100011101",
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          1,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          5,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          5,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          7,
+          1,
+          0
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ]
+      ],
+      "fitness": [
+        0.04326762793384442,
+        0.179776
+      ],
+      "info": {
+        "mutation": "conv1",
+        "loss": "ce",
+        "final_train_loss": 0.18274206284320715,
+        "diverged": false,
+        "train_seconds": 0.7206509113311768,
+        "batch_size": 512,
+        "mflops": 0.179776,
+        "f1": 0.9567323720661556,
+        "feasible": true
+      }
+    }
+  ]
+}

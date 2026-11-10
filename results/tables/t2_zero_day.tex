@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Zero-day detection of the unseen DoS attack. Thresholds accept 95\% of known calibration traffic (globally, or per predicted class). Mean $\pm$ s.d. over 5 seeds.}
+\label{tab:zeroday}
+\footnotesize
+\begin{tabular}{lccccc}
+\toprule
+Model & Score & AUROC $\uparrow$ & FPR@95 $\downarrow$ & DoS detected $\uparrow$ & Open-set macro-F1 $\uparrow$ \\
+\midrule
+MODEO-CNN (reimpl.) & Mahalanobis & 0.928 $\pm$ 0.052 & 0.212 $\pm$ 0.142 & 0.790 $\pm$ 0.142 & 0.715 $\pm$ 0.032 \\
+ & Autoencoder & 0.985 $\pm$ 0.010 & 0.025 $\pm$ 0.018 & 0.972 $\pm$ 0.024 & 0.649 $\pm$ 0.029 \\
+ & Fusion & 0.984 $\pm$ 0.009 & 0.038 $\pm$ 0.028 & 0.963 $\pm$ 0.027 & 0.687 $\pm$ 0.030 \\
+ & Fusion + per-class thr. & 0.984 $\pm$ 0.009 & 0.038 $\pm$ 0.028 & 0.968 $\pm$ 0.023 & 0.885 $\pm$ 0.006 \\
+SC-MODEO-CNN (ours) & Mahalanobis & 0.897 $\pm$ 0.084 & 0.419 $\pm$ 0.315 & 0.580 $\pm$ 0.319 & 0.709 $\pm$ 0.041 \\
+ & Autoencoder & 0.985 $\pm$ 0.010 & 0.025 $\pm$ 0.018 & 0.972 $\pm$ 0.024 & 0.651 $\pm$ 0.029 \\
+ & Fusion & 0.983 $\pm$ 0.012 & 0.040 $\pm$ 0.039 & 0.959 $\pm$ 0.044 & 0.664 $\pm$ 0.051 \\
+ & Fusion + per-class thr. & 0.983 $\pm$ 0.012 & 0.040 $\pm$ 0.039 & 0.972 $\pm$ 0.025 & 0.881 $\pm$ 0.007 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Closed-set classification on the seven known Gas Pipeline classes (DoS held out), best-performance solution, mean $\pm$ s.d. over 5 seeds.}
+\label{tab:classification}
+\footnotesize
+\begin{tabular}{lccccc}
+\toprule
+Model & Macro-F1 & Weighted-F1 & Accuracy & MFLOPs & Search (min) \\
+\midrule
+MODEO-CNN (reimpl.) & 0.974 $\pm$ 0.005 & 0.983 $\pm$ 0.006 & 0.983 $\pm$ 0.006 & 1.066 $\pm$ 1.005 & 9.134 $\pm$ 5.190 \\
+SC-MODEO-CNN (ours) & 0.977 $\pm$ 0.004 & 0.987 $\pm$ 0.005 & 0.987 $\pm$ 0.005 & 1.335 $\pm$ 0.211 & 11.792 $\pm$ 3.455 \\
+Hand-designed CNN & 0.980 $\pm$ 0.002 & 0.991 $\pm$ 0.000 & -- & -- & -- \\
+LSTM & 0.978 $\pm$ 0.002 & 0.989 $\pm$ 0.001 & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

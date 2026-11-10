@@ -1,0 +1,31 @@
+run,n_blocks,optimizer,lr,loss,train_loss_used
+gas_pipeline_baseline_U-DoS_s0,9,RMSprop,0.002,CE (fixed),ce
+gas_pipeline_baseline_U-DoS_s1,6,Adam,0.001,CE (fixed),ce
+gas_pipeline_baseline_U-DoS_s2,3,Adam,0.002,CE (fixed),ce
+gas_pipeline_baseline_U-DoS_s3,6,RMSprop,0.00175,CE (fixed),ce
+gas_pipeline_baseline_U-DoS_s4,6,RMSprop,0.00075,CE (fixed),ce
+gas_pipeline_sc_U-DoS_Pauto_f3msp_s0,9,Adam,0.001,weighted CE,weighted_ce
+gas_pipeline_sc_U-DoS_Pauto_f3msp_s1,5,RMSprop,0.00075,class-balanced CE,cb_ce
+gas_pipeline_sc_U-DoS_Pauto_f3msp_s2,6,RMSprop,0.002,CE,ce
+gas_pipeline_sc_U-DoS_Pauto_f3msp_s3,7,RMSprop,0.00075,class-balanced CE,cb_ce
+gas_pipeline_sc_U-DoS_Pauto_f3msp_s4,10,RMSprop,0.00125,CE,ce
+gas_pipeline_sc_U-DoS_Pauto_noloss_s0,7,Adam,0.002,CE (fixed),ce
+gas_pipeline_sc_U-DoS_Pauto_noloss_s1,5,Adam,0.001,CE (fixed),ce
+gas_pipeline_sc_U-DoS_Pauto_noloss_s2,7,RMSprop,0.00025,CE (fixed),ce
+gas_pipeline_sc_U-DoS_Pauto_noloss_s3,6,Adam,0.002,CE (fixed),ce
+gas_pipeline_sc_U-DoS_Pauto_noloss_s4,6,RMSprop,0.002,CE (fixed),ce
+gas_pipeline_sc_U-DoS_Pauto_s0,3,Adam,0.00075,weighted CE,weighted_ce
+gas_pipeline_sc_U-DoS_Pauto_s1,3,RMSprop,0.0015,CE,ce
+gas_pipeline_sc_U-DoS_Pauto_s2,6,Adam,0.001,class-balanced CE,cb_ce
+gas_pipeline_sc_U-DoS_Pauto_s3,7,RMSprop,0.0015,CE,ce
+gas_pipeline_sc_U-DoS_Pauto_s4,6,Adam,0.002,focal ($\gamma$=2),focal2
+gas_pipeline_sc_U-DoS_nof3_s0,9,Adam,0.0015,class-balanced CE,cb_ce
+gas_pipeline_sc_U-DoS_nof3_s1,10,Adam,0.00175,class-balanced CE,cb_ce
+gas_pipeline_sc_U-DoS_nof3_s2,3,Adam,0.0015,weighted CE,weighted_ce
+gas_pipeline_sc_U-DoS_nof3_s3,7,RMSprop,0.00075,class-balanced CE,cb_ce
+gas_pipeline_sc_U-DoS_nof3_s4,6,Adam,0.00175,weighted CE,weighted_ce
+gas_pipeline_sc_U-DoS_s0,6,Adam,0.0015,focal ($\gamma$=2),focal2
+gas_pipeline_sc_U-DoS_s1,5,Adam,0.00125,focal ($\gamma$=2),focal2
+gas_pipeline_sc_U-DoS_s2,5,Adam,0.00175,class-balanced CE,cb_ce
+gas_pipeline_sc_U-DoS_s3,7,RMSprop,0.00075,class-balanced CE,cb_ce
+gas_pipeline_sc_U-DoS_s4,6,Adam,0.002,class-balanced CE,cb_ce

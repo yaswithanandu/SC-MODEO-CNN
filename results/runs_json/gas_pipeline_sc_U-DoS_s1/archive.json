@@ -1,0 +1,279 @@
+{
+  "config": {
+    "dataset": "gas_pipeline",
+    "data_path": "/kaggle/working/gas_final.arff",
+    "mode": "sc",
+    "unknown_class": "DoS",
+    "pseudo_unknown": null,
+    "norm": null,
+    "transform": null,
+    "seed": 1,
+    "out": "runs/gas_pipeline_sc_U-DoS_s1",
+    "generations": 40,
+    "search_epochs": 5,
+    "final_epochs": 60,
+    "search_fraction": 0.3,
+    "a_max": 20,
+    "c_low": 3,
+    "c_high": 10,
+    "base_batch": 256,
+    "no_loss_gene": false,
+    "no_f3": false,
+    "f1_average": null,
+    "f3_score": "mahalanobis",
+    "feasibility_margin": 0.05,
+    "archive_remove": "highest",
+    "final_which": "picked",
+    "max_rows": null,
+    "resume": false
+  },
+  "search_seconds": 479.13362884521484,
+  "archive": [
+    {
+      "genome": [
+        5,
+        "0000000011",
+        [
+          1,
+          0,
+          2,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          7,
+          2,
+          2
+        ],
+        [
+          6,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          6,
+          0,
+          4,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          2,
+          4
+        ]
+      ],
+      "fitness": [
+        0.03280101566560445,
+        0.832208,
+        0.0
+      ],
+      "info": {
+        "mutation": "conv4",
+        "loss": "focal2",
+        "final_train_loss": 0.05205180738121271,
+        "diverged": false,
+        "train_seconds": 1.4319450855255127,
+        "batch_size": 256,
+        "mflops": 0.832208,
+        "f1": 0.9671989843343956,
+        "feasible": true,
+        "auroc_pseudo_unknown": 1.0
+      }
+    },
+    {
+      "genome": [
+        5,
+        "0000000011",
+        [
+          4,
+          2,
+          4,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          5,
+          2,
+          1
+        ],
+        [
+          6,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          6,
+          0,
+          4,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          2,
+          4
+        ]
+      ],
+      "fitness": [
+        0.030173108623218092,
+        1.546384,
+        1.7817498921823827e-06
+      ],
+      "info": {
+        "mutation": "conv2",
+        "loss": "focal2",
+        "final_train_loss": 0.0666936192040642,
+        "diverged": false,
+        "train_seconds": 1.4251530170440674,
+        "batch_size": 256,
+        "mflops": 1.546384,
+        "f1": 0.9698268913767819,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9999982182501078
+      }
+    },
+    {
+      "genome": [
+        5,
+        "0000000011",
+        [
+          7,
+          2,
+          5,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          5,
+          2,
+          1
+        ],
+        [
+          6,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          6,
+          0,
+          4,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          2,
+          4
+        ]
+      ],
+      "fitness": [
+        0.021662302041148718,
+        1.643152,
+        0.0
+      ],
+      "info": {
+        "mutation": "conv1",
+        "loss": "focal2",
+        "final_train_loss": 0.055393695800254744,
+        "diverged": false,
+        "train_seconds": 1.4449820518493652,
+        "batch_size": 256,
+        "mflops": 1.643152,
+        "f1": 0.9783376979588513,
+        "feasible": true,
+        "auroc_pseudo_unknown": 1.0
+      }
+    },
+    {
+      "genome": [
+        3,
+        "000",
+        [
+          2,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          6,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          7,
+          1,
+          1
+        ],
+        [
+          1,
+          3,
+          3,
+          2,
+          4
+        ]
+      ],
+      "fitness": [
+        0.03785824391744974,
+        0.21008,
+        0.0
+      ],
+      "info": {
+        "mutation": "conv3",
+        "loss": "focal2",
+        "final_train_loss": 0.05298241687317689,
+        "diverged": false,
+        "train_seconds": 0.5024294853210449,
+        "batch_size": 512,
+        "mflops": 0.21008,
+        "f1": 0.9621417560825503,
+        "feasible": true,
+        "auroc_pseudo_unknown": 1.0
+      }
+    }
+  ]
+}

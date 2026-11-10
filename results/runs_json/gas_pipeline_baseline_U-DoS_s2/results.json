@@ -1,0 +1,417 @@
+{
+  "search_seconds": 212.03164410591125,
+  "solutions": {
+    "best_performance": {
+      "genome": [
+        3,
+        "101",
+        [
+          0,
+          2,
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          1,
+          3,
+          7,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          7,
+          0
+        ]
+      ],
+      "search_fitness": [
+        0.023377707742822995,
+        0.369936
+      ],
+      "train": {
+        "loss": "ce",
+        "final_train_loss": 0.04867304200237033,
+        "diverged": false,
+        "train_seconds": 37.43617057800293,
+        "batch_size": 256
+      },
+      "mflops": 0.369936,
+      "known_classes": [
+        "Normal",
+        "NMRI",
+        "CMRI",
+        "MSCI",
+        "MPCI",
+        "MFCI",
+        "Recon"
+      ],
+      "closed_set": {
+        "accuracy": 0.9897042601250197,
+        "precision_weighted": 0.9897225085257538,
+        "recall_weighted": 0.9897042601250197,
+        "f1_weighted": 0.9896516892495922,
+        "precision_macro": 0.9871989001718596,
+        "recall_macro": 0.9718390417374011,
+        "f1_macro": 0.9792221394730254
+      },
+      "open_set": {
+        "msp": {
+          "auroc": 0.3183270381684656,
+          "fpr_at_95tpr": 0.9073569482288828,
+          "unknown_detection_rate": 0.09264305177111716,
+          "known_false_alarm_rate": 0.05200399222566581,
+          "closed_set_macro_f1": 0.9792221394730254,
+          "known_macro_f1_with_rejection": 0.9732663181436153,
+          "open_set_macro_f1": 0.8560522965971541,
+          "threshold": -0.9649868607521057
+        },
+        "msp_pc": {
+          "auroc": 0.3183270381684656,
+          "fpr_at_95tpr": 0.9073569482288828,
+          "unknown_detection_rate": 0.08991825613079019,
+          "known_false_alarm_rate": 0.04407207017912486,
+          "closed_set_macro_f1": 0.9792221394730254,
+          "known_macro_f1_with_rejection": 0.9661097462781679,
+          "open_set_macro_f1": 0.8503328417674254,
+          "threshold": [
+            -0.9565087556838989,
+            -0.9969707131385803,
+            -0.9858396649360657,
+            -0.9805499911308289,
+            -0.9888476133346558,
+            -0.9999722242355347,
+            -1.0
+          ]
+        },
+        "energy": {
+          "auroc": 0.6004579637616636,
+          "fpr_at_95tpr": 0.8283378746594006,
+          "unknown_detection_rate": 0.17166212534059946,
+          "known_false_alarm_rate": 0.05174134580028366,
+          "closed_set_macro_f1": 0.9792221394730254,
+          "known_macro_f1_with_rejection": 0.9738006101670375,
+          "open_set_macro_f1": 0.861685515012157,
+          "threshold": -5.985886573791504
+        },
+        "energy_pc": {
+          "auroc": 0.6004579637616636,
+          "fpr_at_95tpr": 0.8283378746594006,
+          "unknown_detection_rate": 0.12806539509536785,
+          "known_false_alarm_rate": 0.04769659084939854,
+          "closed_set_macro_f1": 0.9792221394730254,
+          "known_macro_f1_with_rejection": 0.9521755475049698,
+          "open_set_macro_f1": 0.8404410929428903,
+          "threshold": [
+            -5.517582893371582,
+            -12.995387077331543,
+            -6.897339820861816,
+            -8.375448226928711,
+            -8.352961540222168,
+            -17.518585205078125,
+            -55.90022659301758
+          ]
+        },
+        "mahalanobis": {
+          "auroc": 0.9801450752936451,
+          "fpr_at_95tpr": 0.051771117166212535,
+          "unknown_detection_rate": 0.9482288828337875,
+          "known_false_alarm_rate": 0.050900877239060775,
+          "closed_set_macro_f1": 0.9792221394730254,
+          "known_macro_f1_with_rejection": 0.7546578162062678,
+          "open_set_macro_f1": 0.7118919887627646,
+          "threshold": 36.85349389108088
+        },
+        "mahalanobis_pc": {
+          "auroc": 0.9801450752936451,
+          "fpr_at_95tpr": 0.051771117166212535,
+          "unknown_detection_rate": 0.9509536784741145,
+          "known_false_alarm_rate": 0.050848347953984345,
+          "closed_set_macro_f1": 0.9792221394730254,
+          "known_macro_f1_with_rejection": 0.9557767584226593,
+          "open_set_macro_f1": 0.888024624728421,
+          "threshold": [
+            34.536785132113835,
+            259.32763077776906,
+            6.452861884473551,
+            7.200060142728753,
+            9.537206926480788,
+            115.77121524188053,
+            0.08790627943553299
+          ]
+        },
+        "ae": {
+          "auroc": 0.9797727900879674,
+          "fpr_at_95tpr": 0.027247956403269755,
+          "unknown_detection_rate": 0.9727520435967303,
+          "known_false_alarm_rate": 0.055050690760098754,
+          "closed_set_macro_f1": 0.9792221394730254,
+          "known_macro_f1_with_rejection": 0.6577971176067641,
+          "open_set_macro_f1": 0.6258885760732148,
+          "threshold": 0.0003678377252072096
+        },
+        "ae_pc": {
+          "auroc": 0.9797727900879674,
+          "fpr_at_95tpr": 0.027247956403269755,
+          "unknown_detection_rate": 0.9727520435967303,
+          "known_false_alarm_rate": 0.05142617008982508,
+          "closed_set_macro_f1": 0.9792221394730254,
+          "known_macro_f1_with_rejection": 0.9515388479129028,
+          "open_set_macro_f1": 0.8849533349720674,
+          "threshold": [
+            0.00021015961829107255,
+            0.0005726934759877622,
+            3.2240801374427974e-05,
+            0.0024719370994716883,
+            0.0005749331903643906,
+            0.003819384379312396,
+            0.000476679764688015
+          ]
+        },
+        "fusion": {
+          "auroc": 0.9823372783732924,
+          "fpr_at_95tpr": 0.027247956403269755,
+          "unknown_detection_rate": 0.9727520435967303,
+          "known_false_alarm_rate": 0.054210222198875876,
+          "closed_set_macro_f1": 0.9792221394730254,
+          "known_macro_f1_with_rejection": 0.7443143381088879,
+          "open_set_macro_f1": 0.7020500854361472,
+          "threshold": 1.3188662645974694
+        },
+        "fusion_pc": {
+          "auroc": 0.9823372783732924,
+          "fpr_at_95tpr": 0.027247956403269755,
+          "unknown_detection_rate": 0.9727520435967303,
+          "known_false_alarm_rate": 0.050848347953984345,
+          "closed_set_macro_f1": 0.9792221394730254,
+          "known_macro_f1_with_rejection": 0.9552823830262016,
+          "open_set_macro_f1": 0.8885696369462701,
+          "threshold": [
+            1.2440788274871388,
+            2.211762792080101,
+            -0.0897408709351452,
+            1.6228844962041735,
+            1.337262159298738,
+            2.7971671038858035,
+            0.00030075385655418507
+          ]
+        }
+      },
+      "unknown_class": "DoS"
+    },
+    "best_tradeoff": {
+      "genome": [
+        3,
+        "101",
+        [
+          0,
+          2,
+          5,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          6,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          7,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          7,
+          0
+        ]
+      ],
+      "search_fitness": [
+        0.025836809635532587,
+        0.095744
+      ],
+      "train": {
+        "loss": "ce",
+        "final_train_loss": 0.05364255054242242,
+        "diverged": false,
+        "train_seconds": 36.80669689178467,
+        "batch_size": 256
+      },
+      "mflops": 0.095744,
+      "known_classes": [
+        "Normal",
+        "NMRI",
+        "CMRI",
+        "MSCI",
+        "MPCI",
+        "MFCI",
+        "Recon"
+      ],
+      "closed_set": {
+        "accuracy": 0.9885486158533382,
+        "precision_weighted": 0.9885461550493435,
+        "recall_weighted": 0.9885486158533382,
+        "f1_weighted": 0.9885000819959594,
+        "precision_macro": 0.9868010698509273,
+        "recall_macro": 0.9709021370675074,
+        "f1_macro": 0.9786051704200658
+      },
+      "open_set": {
+        "msp": {
+          "auroc": 0.584720147013295,
+          "fpr_at_95tpr": 0.7547683923705722,
+          "unknown_detection_rate": 0.2452316076294278,
+          "known_false_alarm_rate": 0.050795818668907915,
+          "closed_set_macro_f1": 0.9786051704200658,
+          "known_macro_f1_with_rejection": 0.9694995817207127,
+          "open_set_macro_f1": 0.8627081076229633,
+          "threshold": -0.9804442524909973
+        },
+        "msp_pc": {
+          "auroc": 0.584720147013295,
+          "fpr_at_95tpr": 0.7547683923705722,
+          "unknown_detection_rate": 0.22343324250681199,
+          "known_false_alarm_rate": 0.043809423753742714,
+          "closed_set_macro_f1": 0.9786051704200658,
+          "known_macro_f1_with_rejection": 0.9571810880659202,
+          "open_set_macro_f1": 0.8520666438219333,
+          "threshold": [
+            -0.978386402130127,
+            -0.9915129542350769,
+            -0.9815959930419922,
+            -0.9857237339019775,
+            -0.9872226715087891,
+            -0.9993533492088318,
+            -1.0
+          ]
+        },
+        "energy": {
+          "auroc": 0.5120950468033068,
+          "fpr_at_95tpr": 0.9346049046321526,
+          "unknown_detection_rate": 0.0653950953678474,
+          "known_false_alarm_rate": 0.049324998686767874,
+          "closed_set_macro_f1": 0.9786051704200658,
+          "known_macro_f1_with_rejection": 0.9734970872775542,
+          "open_set_macro_f1": 0.8545806339458819,
+          "threshold": -6.158726692199707
+        },
+        "energy_pc": {
+          "auroc": 0.5120950468033068,
+          "fpr_at_95tpr": 0.9346049046321526,
+          "unknown_detection_rate": 0.05449591280653951,
+          "known_false_alarm_rate": 0.04690865157325209,
+          "closed_set_macro_f1": 0.9786051704200658,
+          "known_macro_f1_with_rejection": 0.9525738145762164,
+          "open_set_macro_f1": 0.8356475979280037,
+          "threshold": [
+            -5.932950973510742,
+            -8.65124797821045,
+            -6.564528942108154,
+            -7.152162551879883,
+            -11.104738235473633,
+            -21.124387741088867,
+            -37.88090515136719
+          ]
+        },
+        "mahalanobis": {
+          "auroc": 0.9761079063158092,
+          "fpr_at_95tpr": 0.10899182561307902,
+          "unknown_detection_rate": 0.8910081743869209,
+          "known_false_alarm_rate": 0.05851762357514314,
+          "closed_set_macro_f1": 0.9786051704200658,
+          "known_macro_f1_with_rejection": 0.8272534862578322,
+          "open_set_macro_f1": 0.7688606982683012,
+          "threshold": 35.781803136226465
+        },
+        "mahalanobis_pc": {
+          "auroc": 0.9761079063158092,
+          "fpr_at_95tpr": 0.10899182561307902,
+          "unknown_detection_rate": 0.8910081743869209,
+          "known_false_alarm_rate": 0.055470925040710196,
+          "closed_set_macro_f1": 0.9786051704200658,
+          "known_macro_f1_with_rejection": 0.9495734211600181,
+          "open_set_macro_f1": 0.8773892382081888,
+          "threshold": [
+            31.88953520606265,
+            87.6570264042057,
+            6.377665777572134,
+            11.810719214387888,
+            11.28649013133845,
+            171.43369620619256,
+            0.21559466038299985
+          ]
+        },
+        "ae": {
+          "auroc": 0.9797727900879674,
+          "fpr_at_95tpr": 0.027247956403269755,
+          "unknown_detection_rate": 0.9727520435967303,
+          "known_false_alarm_rate": 0.055050690760098754,
+          "closed_set_macro_f1": 0.9786051704200658,
+          "known_macro_f1_with_rejection": 0.6567923704168359,
+          "open_set_macro_f1": 0.6250095715611694,
+          "threshold": 0.0003678377252072096
+        },
+        "ae_pc": {
+          "auroc": 0.9797727900879674,
+          "fpr_at_95tpr": 0.027247956403269755,
+          "unknown_detection_rate": 0.9727520435967303,
+          "known_false_alarm_rate": 0.05137364080474865,
+          "closed_set_macro_f1": 0.9786051704200658,
+          "known_macro_f1_with_rejection": 0.9509458631079281,
+          "open_set_macro_f1": 0.8844654163218071,
+          "threshold": [
+            0.00020943759591318667,
+            0.000652591697871685,
+            3.1875726563157514e-05,
+            0.0024719370994716883,
+            0.0005749331903643906,
+            0.003819384379312396,
+            0.000476679764688015
+          ]
+        },
+        "fusion": {
+          "auroc": 0.9847098272273167,
+          "fpr_at_95tpr": 0.027247956403269755,
+          "unknown_detection_rate": 0.9727520435967303,
+          "known_false_alarm_rate": 0.055103220045175184,
+          "closed_set_macro_f1": 0.9786051704200658,
+          "known_macro_f1_with_rejection": 0.7763218202894565,
+          "open_set_macro_f1": 0.7295694673128055,
+          "threshold": 1.4497921827192153
+        },
+        "fusion_pc": {
+          "auroc": 0.9847098272273167,
+          "fpr_at_95tpr": 0.027247956403269755,
+          "unknown_detection_rate": 0.9727520435967303,
+          "known_false_alarm_rate": 0.053947575773493725,
+          "closed_set_macro_f1": 0.9786051704200658,
+          "known_macro_f1_with_rejection": 0.9496551105520903,
+          "open_set_macro_f1": 0.8818685814475735,
+          "threshold": [
+            1.3515953334753235,
+            2.025531143414412,
+            0.054808432111509806,
+            1.6879617726821554,
+            1.4774797556051387,
+            3.001245939675958,
+            0.23583702252629496
+          ]
+        }
+      },
+      "unknown_class": "DoS"
+    }
+  }
+}

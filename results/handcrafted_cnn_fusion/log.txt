@@ -1,0 +1,5 @@
+seed 0: F1m=0.9805 MFLOPs=0.359 | AUROC maha=0.895 ae=0.988 fusion=0.986 | FPR95 maha=0.384 fusion=0.022 | openF1 fusion=0.663 fusion_pc=0.891 | 156s
+seed 1: F1m=0.9770 MFLOPs=0.359 | AUROC maha=0.933 ae=0.996 fusion=0.992 | FPR95 maha=0.327 fusion=0.005 | openF1 fusion=0.627 fusion_pc=0.882 | 146s
+seed 2: F1m=0.9813 MFLOPs=0.359 | AUROC maha=0.930 ae=0.979 fusion=0.977 | FPR95 maha=0.267 fusion=0.074 | openF1 fusion=0.613 fusion_pc=0.888 | 147s
+seed 3: F1m=0.9798 MFLOPs=0.359 | AUROC maha=0.920 ae=0.989 fusion=0.986 | FPR95 maha=0.297 fusion=0.027 | openF1 fusion=0.662 fusion_pc=0.885 | 143s
+seed 4: F1m=0.9808 MFLOPs=0.359 | AUROC maha=0.897 ae=0.973 fusion=0.968 | FPR95 maha=0.360 fusion=0.114 | openF1 fusion=0.644 fusion_pc=0.888 | 147s

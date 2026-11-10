@@ -1,0 +1,161 @@
+run,threshold,cls,f1,closed_f1
+gas_pipeline_baseline_U-DoS_s0,global,Normal,0.9750798192146618,0.983382691674893
+gas_pipeline_baseline_U-DoS_s0,global,NMRI,0.5776081424936387,0.9289617486338798
+gas_pipeline_baseline_U-DoS_s0,global,CMRI,0.9659324988115988,0.9618176080782581
+gas_pipeline_baseline_U-DoS_s0,global,MSCI,0.7154471544715447,0.9743589743589743
+gas_pipeline_baseline_U-DoS_s0,global,MPCI,0.9119170984455959,0.9722675367047309
+gas_pipeline_baseline_U-DoS_s0,global,MFCI,0.0,0.9691629955947136
+gas_pipeline_baseline_U-DoS_s0,global,Recon,0.9782282282282282,1.0
+gas_pipeline_baseline_U-DoS_s0,global,DoS (unknown),0.42891278375149344,
+gas_pipeline_baseline_U-DoS_s0,per-class,Normal,0.9578379289990724,0.983382691674893
+gas_pipeline_baseline_U-DoS_s0,per-class,NMRI,0.9253731343283582,0.9289617486338798
+gas_pipeline_baseline_U-DoS_s0,per-class,CMRI,0.9844003899902503,0.9618176080782581
+gas_pipeline_baseline_U-DoS_s0,per-class,MSCI,0.9576547231270358,0.9743589743589743
+gas_pipeline_baseline_U-DoS_s0,per-class,MPCI,0.9496498832944315,0.9722675367047309
+gas_pipeline_baseline_U-DoS_s0,per-class,MFCI,0.8995215311004785,0.9691629955947136
+gas_pipeline_baseline_U-DoS_s0,per-class,Recon,0.9697199091597275,1.0
+gas_pipeline_baseline_U-DoS_s0,per-class,DoS (unknown),0.4206209724663152,
+gas_pipeline_baseline_U-DoS_s1,global,Normal,0.9607793522267206,0.9852602108036891
+gas_pipeline_baseline_U-DoS_s1,global,NMRI,0.9416267942583733,0.9455216989843028
+gas_pipeline_baseline_U-DoS_s1,global,CMRI,0.9656901143662855,0.9661865998747652
+gas_pipeline_baseline_U-DoS_s1,global,MSCI,0.8014981273408239,0.9576547231270358
+gas_pipeline_baseline_U-DoS_s1,global,MPCI,0.9327902240325866,0.9742251223491027
+gas_pipeline_baseline_U-DoS_s1,global,MFCI,0.0,0.9592760180995475
+gas_pipeline_baseline_U-DoS_s1,global,Recon,0.9820493642483171,1.0
+gas_pipeline_baseline_U-DoS_s1,global,DoS (unknown),0.4297719087635054,
+gas_pipeline_baseline_U-DoS_s1,per-class,Normal,0.9586168998605064,0.9852602108036891
+gas_pipeline_baseline_U-DoS_s1,per-class,NMRI,0.9479659413434248,0.9455216989843028
+gas_pipeline_baseline_U-DoS_s1,per-class,CMRI,0.9517529752331939,0.9661865998747652
+gas_pipeline_baseline_U-DoS_s1,per-class,MSCI,0.8811188811188811,0.9576547231270358
+gas_pipeline_baseline_U-DoS_s1,per-class,MPCI,0.9572139303482587,0.9742251223491027
+gas_pipeline_baseline_U-DoS_s1,per-class,MFCI,0.9150943396226415,0.9592760180995475
+gas_pipeline_baseline_U-DoS_s1,per-class,Recon,0.9743782969103241,1.0
+gas_pipeline_baseline_U-DoS_s1,per-class,DoS (unknown),0.422469280280866,
+gas_pipeline_baseline_U-DoS_s2,global,Normal,0.984635663385097,0.9920706286274831
+gas_pipeline_baseline_U-DoS_s2,global,NMRI,0.3165905631659056,0.9490566037735849
+gas_pipeline_baseline_U-DoS_s2,global,CMRI,0.9902008032128514,0.9908492534917323
+gas_pipeline_baseline_U-DoS_s2,global,MSCI,0.31351351351351353,0.9545454545454546
+gas_pipeline_baseline_U-DoS_s2,global,MPCI,0.9450993600538902,0.9768049656974844
+gas_pipeline_baseline_U-DoS_s2,global,MFCI,0.0,0.9912280701754386
+gas_pipeline_baseline_U-DoS_s2,global,Recon,0.9839492347891005,1.0
+gas_pipeline_baseline_U-DoS_s2,global,DoS (unknown),0.41975308641975306,
+gas_pipeline_baseline_U-DoS_s2,per-class,Normal,0.9681416670155315,0.9920706286274831
+gas_pipeline_baseline_U-DoS_s2,per-class,NMRI,0.9251700680272109,0.9490566037735849
+gas_pipeline_baseline_U-DoS_s2,per-class,CMRI,0.970957095709571,0.9908492534917323
+gas_pipeline_baseline_U-DoS_s2,per-class,MSCI,0.9230769230769231,0.9545454545454546
+gas_pipeline_baseline_U-DoS_s2,per-class,MPCI,0.9422492401215805,0.9768049656974844
+gas_pipeline_baseline_U-DoS_s2,per-class,MFCI,0.909952606635071,0.9912280701754386
+gas_pipeline_baseline_U-DoS_s2,per-class,Recon,0.9728301886792453,1.0
+gas_pipeline_baseline_U-DoS_s2,per-class,DoS (unknown),0.4172998246639392,
+gas_pipeline_baseline_U-DoS_s3,global,Normal,0.9675671168917792,0.982798353909465
+gas_pipeline_baseline_U-DoS_s3,global,NMRI,0.5802310654685494,0.9394495412844037
+gas_pipeline_baseline_U-DoS_s3,global,CMRI,0.9560975609756097,0.9567542066362635
+gas_pipeline_baseline_U-DoS_s3,global,MSCI,0.4236453201970443,0.9650793650793651
+gas_pipeline_baseline_U-DoS_s3,global,MPCI,0.9456631792102599,0.9780830879947661
+gas_pipeline_baseline_U-DoS_s3,global,MFCI,0.0,0.986784140969163
+gas_pipeline_baseline_U-DoS_s3,global,Recon,0.9839492347891005,0.9985326485693323
+gas_pipeline_baseline_U-DoS_s3,global,DoS (unknown),0.39165701042873696,
+gas_pipeline_baseline_U-DoS_s3,per-class,Normal,0.9551885796342442,0.982798353909465
+gas_pipeline_baseline_U-DoS_s3,per-class,NMRI,0.9085545722713865,0.9394495412844037
+gas_pipeline_baseline_U-DoS_s3,per-class,CMRI,0.9396232490742231,0.9567542066362635
+gas_pipeline_baseline_U-DoS_s3,per-class,MSCI,0.9483870967741935,0.9650793650793651
+gas_pipeline_baseline_U-DoS_s3,per-class,MPCI,0.9513259483048002,0.9780830879947661
+gas_pipeline_baseline_U-DoS_s3,per-class,MFCI,0.9732142857142857,0.986784140969163
+gas_pipeline_baseline_U-DoS_s3,per-class,Recon,0.9747645951035782,0.9985326485693323
+gas_pipeline_baseline_U-DoS_s3,per-class,DoS (unknown),0.40576368876080693,
+gas_pipeline_baseline_U-DoS_s4,global,Normal,0.9738978393905333,0.9911431851730359
+gas_pipeline_baseline_U-DoS_s4,global,NMRI,0.8756319514661274,0.9500454132606722
+gas_pipeline_baseline_U-DoS_s4,global,CMRI,0.9883181309009441,0.9862795149968092
+gas_pipeline_baseline_U-DoS_s4,global,MSCI,0.5,0.9641693811074918
+gas_pipeline_baseline_U-DoS_s4,global,MPCI,0.932469304229195,0.9777922926192031
+gas_pipeline_baseline_U-DoS_s4,global,MFCI,0.0,0.9823008849557522
+gas_pipeline_baseline_U-DoS_s4,global,Recon,0.9850857568978374,1.0
+gas_pipeline_baseline_U-DoS_s4,global,DoS (unknown),0.42661691542288555,
+gas_pipeline_baseline_U-DoS_s4,per-class,Normal,0.9680093794489574,0.9911431851730359
+gas_pipeline_baseline_U-DoS_s4,per-class,NMRI,0.9400749063670412,0.9500454132606722
+gas_pipeline_baseline_U-DoS_s4,per-class,CMRI,0.976759410801964,0.9862795149968092
+gas_pipeline_baseline_U-DoS_s4,per-class,MSCI,0.9292929292929293,0.9641693811074918
+gas_pipeline_baseline_U-DoS_s4,per-class,MPCI,0.9457729875378915,0.9777922926192031
+gas_pipeline_baseline_U-DoS_s4,per-class,MFCI,0.9732142857142857,0.9823008849557522
+gas_pipeline_baseline_U-DoS_s4,per-class,Recon,0.9759217456734387,1.0
+gas_pipeline_baseline_U-DoS_s4,per-class,DoS (unknown),0.42875,
+gas_pipeline_sc_U-DoS_Pauto_s0,global,Normal,0.9723550197464145,0.9837535474848846
+gas_pipeline_sc_U-DoS_Pauto_s0,global,NMRI,0.6690734055354994,0.9360146252285192
+gas_pipeline_sc_U-DoS_Pauto_s0,global,CMRI,0.9618176080782581,0.9619933764390475
+gas_pipeline_sc_U-DoS_Pauto_s0,global,MSCI,0.5462962962962963,0.9743589743589743
+gas_pipeline_sc_U-DoS_Pauto_s0,global,MPCI,0.9245476271765107,0.9729377241604173
+gas_pipeline_sc_U-DoS_Pauto_s0,global,MFCI,0.0,0.9777777777777777
+gas_pipeline_sc_U-DoS_Pauto_s0,global,Recon,0.9782282282282282,1.0
+gas_pipeline_sc_U-DoS_Pauto_s0,global,DoS (unknown),0.43253012048192774,
+gas_pipeline_sc_U-DoS_Pauto_s0,per-class,Normal,0.9564740152826445,0.9837535474848846
+gas_pipeline_sc_U-DoS_Pauto_s0,per-class,NMRI,0.9345794392523364,0.9360146252285192
+gas_pipeline_sc_U-DoS_Pauto_s0,per-class,CMRI,0.954368932038835,0.9619933764390475
+gas_pipeline_sc_U-DoS_Pauto_s0,per-class,MSCI,0.9576547231270358,0.9743589743589743
+gas_pipeline_sc_U-DoS_Pauto_s0,per-class,MPCI,0.951048951048951,0.9729377241604173
+gas_pipeline_sc_U-DoS_Pauto_s0,per-class,MFCI,0.8995215311004785,0.9777777777777777
+gas_pipeline_sc_U-DoS_Pauto_s0,per-class,Recon,0.9669829222011386,1.0
+gas_pipeline_sc_U-DoS_Pauto_s0,per-class,DoS (unknown),0.4181712288875946,
+gas_pipeline_sc_U-DoS_Pauto_s1,global,Normal,0.9718514822668496,0.9906610660250398
+gas_pipeline_sc_U-DoS_Pauto_s1,global,NMRI,0.8503118503118503,0.9416267942583733
+gas_pipeline_sc_U-DoS_Pauto_s1,global,CMRI,0.9856149991918539,0.9862748264169223
+gas_pipeline_sc_U-DoS_Pauto_s1,global,MSCI,0.25555555555555554,0.9576547231270358
+gas_pipeline_sc_U-DoS_Pauto_s1,global,MPCI,0.9523492169276908,0.9742251223491027
+gas_pipeline_sc_U-DoS_Pauto_s1,global,MFCI,0.0,0.9592760180995475
+gas_pipeline_sc_U-DoS_Pauto_s1,global,Recon,0.9820493642483171,1.0
+gas_pipeline_sc_U-DoS_Pauto_s1,global,DoS (unknown),0.43223443223443225,
+gas_pipeline_sc_U-DoS_Pauto_s1,per-class,Normal,0.9658230495712194,0.9906610660250398
+gas_pipeline_sc_U-DoS_Pauto_s1,per-class,NMRI,0.9178082191780822,0.9416267942583733
+gas_pipeline_sc_U-DoS_Pauto_s1,per-class,CMRI,0.9622610141313384,0.9862748264169223
+gas_pipeline_sc_U-DoS_Pauto_s1,per-class,MSCI,0.8811188811188811,0.9576547231270358
+gas_pipeline_sc_U-DoS_Pauto_s1,per-class,MPCI,0.9572139303482587,0.9742251223491027
+gas_pipeline_sc_U-DoS_Pauto_s1,per-class,MFCI,0.9497716894977168,0.9592760180995475
+gas_pipeline_sc_U-DoS_Pauto_s1,per-class,Recon,0.9743782969103241,1.0
+gas_pipeline_sc_U-DoS_Pauto_s1,per-class,DoS (unknown),0.4219858156028369,
+gas_pipeline_sc_U-DoS_Pauto_s2,global,Normal,0.985842456169232,0.9926368322015872
+gas_pipeline_sc_U-DoS_Pauto_s2,global,NMRI,0.5154362416107383,0.9441903019213175
+gas_pipeline_sc_U-DoS_Pauto_s2,global,CMRI,0.9929100870125684,0.9942084942084942
+gas_pipeline_sc_U-DoS_Pauto_s2,global,MSCI,0.0,0.9545454545454546
+gas_pipeline_sc_U-DoS_Pauto_s2,global,MPCI,0.9029772329246936,0.9768049656974844
+gas_pipeline_sc_U-DoS_Pauto_s2,global,MFCI,0.0,0.9912280701754386
+gas_pipeline_sc_U-DoS_Pauto_s2,global,Recon,0.9805243445692884,1.0
+gas_pipeline_sc_U-DoS_Pauto_s2,global,DoS (unknown),0.40499149177538285,
+gas_pipeline_sc_U-DoS_Pauto_s2,per-class,Normal,0.9685629369165725,0.9926368322015872
+gas_pipeline_sc_U-DoS_Pauto_s2,per-class,NMRI,0.9318181818181818,0.9441903019213175
+gas_pipeline_sc_U-DoS_Pauto_s2,per-class,CMRI,0.9764531533014984,0.9942084942084942
+gas_pipeline_sc_U-DoS_Pauto_s2,per-class,MSCI,0.9230769230769231,0.9545454545454546
+gas_pipeline_sc_U-DoS_Pauto_s2,per-class,MPCI,0.942963212959838,0.9768049656974844
+gas_pipeline_sc_U-DoS_Pauto_s2,per-class,MFCI,0.9252336448598131,0.9912280701754386
+gas_pipeline_sc_U-DoS_Pauto_s2,per-class,Recon,0.9728301886792453,1.0
+gas_pipeline_sc_U-DoS_Pauto_s2,per-class,DoS (unknown),0.42908653846153844,
+gas_pipeline_sc_U-DoS_Pauto_s3,global,Normal,0.9783048886317617,0.9912226985099
+gas_pipeline_sc_U-DoS_Pauto_s3,global,NMRI,0.6140350877192983,0.9466911764705882
+gas_pipeline_sc_U-DoS_Pauto_s3,global,CMRI,0.9853990914990266,0.9863857374392221
+gas_pipeline_sc_U-DoS_Pauto_s3,global,MSCI,0.26373626373626374,0.9650793650793651
+gas_pipeline_sc_U-DoS_Pauto_s3,global,MPCI,0.9488559892328399,0.9780830879947661
+gas_pipeline_sc_U-DoS_Pauto_s3,global,MFCI,0.0,0.986784140969163
+gas_pipeline_sc_U-DoS_Pauto_s3,global,Recon,0.9839492347891005,1.0
+gas_pipeline_sc_U-DoS_Pauto_s3,global,DoS (unknown),0.41671571512654504,
+gas_pipeline_sc_U-DoS_Pauto_s3,per-class,Normal,0.9632084574401141,0.9912226985099
+gas_pipeline_sc_U-DoS_Pauto_s3,per-class,NMRI,0.919921875,0.9466911764705882
+gas_pipeline_sc_U-DoS_Pauto_s3,per-class,CMRI,0.9652650822669104,0.9863857374392221
+gas_pipeline_sc_U-DoS_Pauto_s3,per-class,MSCI,0.9449838187702265,0.9650793650793651
+gas_pipeline_sc_U-DoS_Pauto_s3,per-class,MPCI,0.9541345831938399,0.9780830879947661
+gas_pipeline_sc_U-DoS_Pauto_s3,per-class,MFCI,0.968609865470852,0.986784140969163
+gas_pipeline_sc_U-DoS_Pauto_s3,per-class,Recon,0.977076287110109,1.0
+gas_pipeline_sc_U-DoS_Pauto_s3,per-class,DoS (unknown),0.4102857142857143,
+gas_pipeline_sc_U-DoS_Pauto_s4,global,Normal,0.9681507420376855,0.9918293978266198
+gas_pipeline_sc_U-DoS_Pauto_s4,global,NMRI,0.8906720160481444,0.9526411657559198
+gas_pipeline_sc_U-DoS_Pauto_s4,global,CMRI,0.9881819653553505,0.9881896133311762
+gas_pipeline_sc_U-DoS_Pauto_s4,global,MSCI,0.7908745247148289,0.9641693811074918
+gas_pipeline_sc_U-DoS_Pauto_s4,global,MPCI,0.9514237855946399,0.9777922926192031
+gas_pipeline_sc_U-DoS_Pauto_s4,global,MFCI,0.0,0.9823008849557522
+gas_pipeline_sc_U-DoS_Pauto_s4,global,Recon,0.9865971705137752,1.0
+gas_pipeline_sc_U-DoS_Pauto_s4,global,DoS (unknown),0.4107701941139637,
+gas_pipeline_sc_U-DoS_Pauto_s4,per-class,Normal,0.9679786524349566,0.9918293978266198
+gas_pipeline_sc_U-DoS_Pauto_s4,per-class,NMRI,0.9454887218045113,0.9526411657559198
+gas_pipeline_sc_U-DoS_Pauto_s4,per-class,CMRI,0.9614421632448673,0.9881896133311762
+gas_pipeline_sc_U-DoS_Pauto_s4,per-class,MSCI,0.9328859060402684,0.9641693811074918
+gas_pipeline_sc_U-DoS_Pauto_s4,per-class,MPCI,0.9393425957302609,0.9777922926192031
+gas_pipeline_sc_U-DoS_Pauto_s4,per-class,MFCI,0.9732142857142857,0.9823008849557522
+gas_pipeline_sc_U-DoS_Pauto_s4,per-class,Recon,0.9759217456734387,1.0
+gas_pipeline_sc_U-DoS_Pauto_s4,per-class,DoS (unknown),0.4004884004884005,

@@ -1,0 +1,746 @@
+{
+  "config": {
+    "dataset": "gas_pipeline",
+    "data_path": "/kaggle/working/gas_final.arff",
+    "mode": "sc",
+    "unknown_class": "DoS",
+    "pseudo_unknown": "auto",
+    "norm": null,
+    "transform": null,
+    "seed": 1,
+    "out": "runs/gas_pipeline_sc_U-DoS_Pauto_noloss_s1",
+    "generations": 40,
+    "search_epochs": 5,
+    "final_epochs": 60,
+    "search_fraction": 0.3,
+    "a_max": 20,
+    "c_low": 3,
+    "c_high": 10,
+    "base_batch": 256,
+    "no_loss_gene": true,
+    "no_f3": false,
+    "f1_average": null,
+    "f3_score": "mahalanobis",
+    "feasibility_margin": 0.05,
+    "archive_remove": "highest",
+    "final_which": "picked",
+    "max_rows": null,
+    "resume": false
+  },
+  "search_seconds": 389.0347692966461,
+  "pseudo_unknown_resolved": "CMRI",
+  "archive": [
+    {
+      "genome": [
+        5,
+        "1011100011",
+        [
+          0,
+          3,
+          6,
+          2,
+          0
+        ],
+        [
+          4,
+          1,
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          2,
+          1
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          3
+        ]
+      ],
+      "fitness": [
+        0.16855691900484737,
+        0.600032,
+        0.049805441382044235
+      ],
+      "info": {
+        "mutation": "SC2_topo",
+        "loss": "ce",
+        "final_train_loss": 0.3668513182136748,
+        "diverged": false,
+        "train_seconds": 0.48078346252441406,
+        "batch_size": 768,
+        "mflops": 0.600032,
+        "f1": 0.8314430809951526,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9501945586179558
+      }
+    },
+    {
+      "genome": [
+        5,
+        "1011100011",
+        [
+          0,
+          3,
+          6,
+          2,
+          0
+        ],
+        [
+          4,
+          1,
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          3
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          3
+        ]
+      ],
+      "fitness": [
+        0.15558178651609433,
+        0.699968,
+        0.04695617475849678
+      ],
+      "info": {
+        "mutation": "conv4",
+        "loss": "ce",
+        "final_train_loss": 0.29336212906572556,
+        "diverged": false,
+        "train_seconds": 0.4933278560638428,
+        "batch_size": 768,
+        "mflops": 0.699968,
+        "f1": 0.8444182134839057,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9530438252415032
+      }
+    },
+    {
+      "genome": [
+        5,
+        "0100011011",
+        [
+          0,
+          3,
+          6,
+          2,
+          0
+        ],
+        [
+          4,
+          1,
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          2,
+          2
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          3
+        ]
+      ],
+      "fitness": [
+        0.15113608611473694,
+        0.941456,
+        0.04306934910666471
+      ],
+      "info": {
+        "mutation": "conv4",
+        "loss": "ce",
+        "final_train_loss": 0.3965219259262085,
+        "diverged": false,
+        "train_seconds": 0.5246016979217529,
+        "batch_size": 768,
+        "mflops": 0.941456,
+        "f1": 0.848863913885263,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9569306508933353
+      }
+    },
+    {
+      "genome": [
+        5,
+        "0100011011",
+        [
+          0,
+          3,
+          5,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          5,
+          2,
+          7,
+          2,
+          3
+        ],
+        [
+          5,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          3
+        ]
+      ],
+      "fitness": [
+        0.03591751788084119,
+        1.54352,
+        0.03694744657027427
+      ],
+      "info": {
+        "mutation": "conv1",
+        "loss": "ce",
+        "final_train_loss": 0.34309815367062885,
+        "diverged": false,
+        "train_seconds": 0.7298154830932617,
+        "batch_size": 768,
+        "mflops": 1.54352,
+        "f1": 0.9640824821191588,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9630525534297257
+      }
+    },
+    {
+      "genome": [
+        5,
+        "0100011011",
+        [
+          0,
+          3,
+          5,
+          2,
+          1
+        ],
+        [
+          6,
+          3,
+          6,
+          1,
+          1
+        ],
+        [
+          5,
+          2,
+          7,
+          2,
+          3
+        ],
+        [
+          5,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          3
+        ]
+      ],
+      "fitness": [
+        0.03313990802052402,
+        2.30816,
+        0.04141281896138038
+      ],
+      "info": {
+        "mutation": "conv2",
+        "loss": "ce",
+        "final_train_loss": 0.36195574204126996,
+        "diverged": false,
+        "train_seconds": 0.8105645179748535,
+        "batch_size": 768,
+        "mflops": 2.30816,
+        "f1": 0.966860091979476,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9585871810386196
+      }
+    },
+    {
+      "genome": [
+        5,
+        "0000111100",
+        [
+          2,
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          0,
+          3,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          3
+        ]
+      ],
+      "fitness": [
+        0.38758530341213326,
+        0.872304,
+        0.030069651637491535
+      ],
+      "info": {
+        "mutation": "conv1",
+        "loss": "ce",
+        "final_train_loss": 0.3188045488463508,
+        "diverged": false,
+        "train_seconds": 0.4693465232849121,
+        "batch_size": 768,
+        "mflops": 0.872304,
+        "f1": 0.6124146965878667,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9699303483625085
+      }
+    },
+    {
+      "genome": [
+        5,
+        "0111011010",
+        [
+          2,
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          0,
+          3,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          3
+        ]
+      ],
+      "fitness": [
+        0.20956161025160858,
+        1.295904,
+        0.031591433857024676
+      ],
+      "info": {
+        "mutation": "SC2_topo",
+        "loss": "ce",
+        "final_train_loss": 0.28382323185602826,
+        "diverged": false,
+        "train_seconds": 0.5532240867614746,
+        "batch_size": 768,
+        "mflops": 1.295904,
+        "f1": 0.7904383897483914,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9684085661429753
+      }
+    },
+    {
+      "genome": [
+        5,
+        "1010001111",
+        [
+          2,
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          0,
+          3,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          3
+        ]
+      ],
+      "fitness": [
+        0.2232672213589274,
+        0.89208,
+        0.043234089312663926
+      ],
+      "info": {
+        "mutation": "SC2_topo",
+        "loss": "ce",
+        "final_train_loss": 0.32136516604158616,
+        "diverged": false,
+        "train_seconds": 0.8062472343444824,
+        "batch_size": 768,
+        "mflops": 0.89208,
+        "f1": 0.7767327786410726,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9567659106873361
+      }
+    },
+    {
+      "genome": [
+        3,
+        "011",
+        [
+          7,
+          1,
+          7,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          2,
+          0
+        ],
+        [
+          6,
+          0,
+          2,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          6,
+          2
+        ]
+      ],
+      "fitness": [
+        0.06004524933799571,
+        1.01856,
+        0.05244519671458481
+      ],
+      "info": {
+        "mutation": "conv3",
+        "loss": "ce",
+        "final_train_loss": 0.11364139036999808,
+        "diverged": false,
+        "train_seconds": 0.4701497554779053,
+        "batch_size": 512,
+        "mflops": 1.01856,
+        "f1": 0.9399547506620043,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9475548032854152
+      }
+    },
+    {
+      "genome": [
+        3,
+        "100",
+        [
+          7,
+          1,
+          7,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          2,
+          0
+        ],
+        [
+          6,
+          0,
+          2,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          6,
+          2
+        ]
+      ],
+      "fitness": [
+        0.36010556836507457,
+        0.24312,
+        0.04519967034571981
+      ],
+      "info": {
+        "mutation": "SC2_topo",
+        "loss": "ce",
+        "final_train_loss": 0.14624354712389134,
+        "diverged": false,
+        "train_seconds": 0.45766568183898926,
+        "batch_size": 512,
+        "mflops": 0.24312,
+        "f1": 0.6398944316349254,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.9548003296542802
+      }
+    },
+    {
+      "genome": [
+        3,
+        "100",
+        [
+          0,
+          0,
+          6,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          4,
+          2,
+          0
+        ],
+        [
+          6,
+          0,
+          2,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          6,
+          2
+        ]
+      ],
+      "fitness": [
+        0.6733342640381175,
+        0.231456,
+        0.11935319256956467
+      ],
+      "info": {
+        "mutation": "conv1",
+        "loss": "ce",
+        "final_train_loss": 0.39612091801784655,
+        "diverged": false,
+        "train_seconds": 0.39429187774658203,
+        "batch_size": 512,
+        "mflops": 0.231456,
+        "f1": 0.3266657359618826,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.8806468074304353
+      }
+    },
+    {
+      "genome": [
+        3,
+        "100",
+        [
+          0,
+          0,
+          6,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          7,
+          2,
+          3
+        ],
+        [
+          6,
+          0,
+          2,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          6,
+          2
+        ]
+      ],
+      "fitness": [
+        0.08101605781702748,
+        0.563808,
+        0.06709707762175998
+      ],
+      "info": {
+        "mutation": "conv2",
+        "loss": "ce",
+        "final_train_loss": 0.14928236217410476,
+        "diverged": false,
+        "train_seconds": 0.37577223777770996,
+        "batch_size": 512,
+        "mflops": 0.563808,
+        "f1": 0.9189839421829725,
+        "feasible": true,
+        "auroc_pseudo_unknown": 0.93290292237824
+      }
+    }
+  ]
+}

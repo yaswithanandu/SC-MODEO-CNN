@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Ablation of SC-MODEO-CNN components (DoS held out, 5 seeds).}
+\label{tab:ablation}
+\footnotesize
+\begin{tabular}{lcccc}
+\toprule
+Variant & Macro-F1 & MFLOPs & AUROC (Mahalanobis) & Open-set F1 (fusion, per-class) \\
+\midrule
+SC-MODEO-CNN (ours) & 0.977 $\pm$ 0.004 & 1.335 $\pm$ 0.211 & 0.897 $\pm$ 0.084 & 0.881 $\pm$ 0.007 \\
+– loss gene & 0.975 $\pm$ 0.006 & 4.677 $\pm$ 4.009 & 0.908 $\pm$ 0.055 & 0.882 $\pm$ 0.007 \\
+– $f_3$ & 0.962 $\pm$ 0.030 & 1.618 $\pm$ 0.950 & 0.883 $\pm$ 0.059 & 0.872 $\pm$ 0.025 \\
+$f_3$ with MSP & 0.969 $\pm$ 0.014 & 3.287 $\pm$ 2.081 & 0.912 $\pm$ 0.029 & 0.878 $\pm$ 0.014 \\
+easy pseudo-unknown (Recon) & 0.977 $\pm$ 0.003 & 0.737 $\pm$ 0.515 & 0.889 $\pm$ 0.048 & 0.887 $\pm$ 0.006 \\
+\bottomrule
+\end{tabular}
+\end{table}

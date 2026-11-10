@@ -1,0 +1,349 @@
+{
+  "config": {
+    "dataset": "gas_pipeline",
+    "data_path": "/kaggle/working/gas_final.arff",
+    "mode": "sc",
+    "unknown_class": "DoS",
+    "pseudo_unknown": null,
+    "norm": null,
+    "transform": null,
+    "seed": 3,
+    "out": "runs/gas_pipeline_sc_U-DoS_s3",
+    "generations": 40,
+    "search_epochs": 5,
+    "final_epochs": 60,
+    "search_fraction": 0.3,
+    "a_max": 20,
+    "c_low": 3,
+    "c_high": 10,
+    "base_batch": 256,
+    "no_loss_gene": false,
+    "no_f3": false,
+    "f1_average": null,
+    "f3_score": "mahalanobis",
+    "feasibility_margin": 0.05,
+    "archive_remove": "highest",
+    "final_which": "picked",
+    "max_rows": null,
+    "resume": false
+  },
+  "search_seconds": 814.7984001636505,
+  "archive": [
+    {
+      "genome": [
+        7,
+        "110000100000101010101",
+        [
+          2,
+          1,
+          7,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          5,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          7,
+          0,
+          2
+        ],
+        [
+          5,
+          0,
+          5,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          0,
+          2
+        ]
+      ],
+      "fitness": [
+        0.03234079969136039,
+        0.38544,
+        0.0
+      ],
+      "info": {
+        "mutation": "conv1",
+        "loss": "cb_ce",
+        "final_train_loss": 0.1528164569288492,
+        "diverged": false,
+        "train_seconds": 1.179670810699463,
+        "batch_size": 256,
+        "mflops": 0.38544,
+        "f1": 0.9676592003086396,
+        "feasible": true,
+        "auroc_pseudo_unknown": 1.0
+      }
+    },
+    {
+      "genome": [
+        7,
+        "101010111101111110101",
+        [
+          2,
+          1,
+          7,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          5,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          7,
+          0,
+          2
+        ],
+        [
+          5,
+          0,
+          5,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          0,
+          2
+        ]
+      ],
+      "fitness": [
+        0.030817580174089976,
+        0.449888,
+        0.0
+      ],
+      "info": {
+        "mutation": "SC2_topo",
+        "loss": "cb_ce",
+        "final_train_loss": 0.1496434095626076,
+        "diverged": false,
+        "train_seconds": 1.3656840324401855,
+        "batch_size": 256,
+        "mflops": 0.449888,
+        "f1": 0.96918241982591,
+        "feasible": true,
+        "auroc_pseudo_unknown": 1.0
+      }
+    },
+    {
+      "genome": [
+        7,
+        "000000000111100111111",
+        [
+          0,
+          2,
+          5,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          5,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          3,
+          7,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          0,
+          5,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          0,
+          2
+        ]
+      ],
+      "fitness": [
+        0.03663665609448341,
+        0.259312,
+        0.0
+      ],
+      "info": {
+        "mutation": "conv4",
+        "loss": "cb_ce",
+        "final_train_loss": 0.16151777356863023,
+        "diverged": false,
+        "train_seconds": 1.2683513164520264,
+        "batch_size": 256,
+        "mflops": 0.259312,
+        "f1": 0.9633633439055166,
+        "feasible": true,
+        "auroc_pseudo_unknown": 1.0
+      }
+    },
+    {
+      "genome": [
+        7,
+        "000000000111100111111",
+        [
+          0,
+          2,
+          5,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          5,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          7,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          7,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          0,
+          5,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          0,
+          2
+        ]
+      ],
+      "fitness": [
+        0.03332793180415772,
+        0.279888,
+        0.0
+      ],
+      "info": {
+        "mutation": "conv3",
+        "loss": "cb_ce",
+        "final_train_loss": 0.15774108643333118,
+        "diverged": false,
+        "train_seconds": 1.2110579013824463,
+        "batch_size": 256,
+        "mflops": 0.279888,
+        "f1": 0.9666720681958423,
+        "feasible": true,
+        "auroc_pseudo_unknown": 1.0
+      }
+    }
+  ]
+}

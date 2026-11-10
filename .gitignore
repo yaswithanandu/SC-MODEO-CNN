@@ -1,0 +1,16 @@
+# datasets are not redistributed (download Gas Pipeline from the authors' site)
+data/
+*.arff
+DNN-EdgeIIoT-dataset.csv
+# run outputs and trained models
+runs/
+*.pt
+# python / latex build files
+__pycache__/
+.pytest_cache/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
